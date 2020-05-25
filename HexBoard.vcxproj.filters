@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\graph.cpp">
+      <Filter>Main Program\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\hexboard.cpp">
+      <Filter>Main Program\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shortestpath.cpp">
+      <Filter>Main Program\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Main Program</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\graph.h">
+      <Filter>Main Program\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\hexboard.h">
+      <Filter>Main Program\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shortestpath.h">
+      <Filter>Main Program\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main Program">
+      <UniqueIdentifier>{0e0d5a83-cedc-416f-8267-1ea76df58d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Program\Modules">
+      <UniqueIdentifier>{d6ffefd2-a2e7-406f-a5da-cd8194bf1e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Program\Headers">
+      <UniqueIdentifier>{2f29d366-f10d-438c-b4f7-04887fb81d0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
